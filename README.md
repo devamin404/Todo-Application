@@ -1,10 +1,61 @@
-This project is made with HTML, CSS and React js
-The working flow is in my App.js you will watch all the components that are defined there like Todoform etc
-So you have to read App.js then you have to go to components in which the flow is as follows:
-Todoform.js is the first component and then comes Todos.js and then Todo.js(indivdual todo)
-In this way you will understand the flow of my code
-One important thing for running of this project you have to install node modules folder
-Just clone my project in Vs code studio and then in terminal run the command "npm i"
-It will install node modules folder which contain all dependencies of your folder then in terminal type "npm run dev"
-Your project is live on local host now
-This application is very basic you can add more features to it like saving all the todos in browser windows by use of localStorage etc
+# Todo App
+
+A simple todo list application built with React for learning state management and component composition.
+
+## Tech Stack
+
+- React
+- HTML/CSS
+- Vite
+
+## Project Structure
+
+The main workflow starts from `App.js`:
+
+App.js
+└── TodoForm.js (handles input)
+└── Todos.js (list of todos)
+└── Todo.js (individual todo item)
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository
+2. Open in VS Code
+3. Install dependencies:
+
+In bash or terminal ---> run this command below it will install node modules folder
+npm install
+
+### Running the App
+
+Start the development server:
+
+In bash or terminal ---> run this command below
+npm run dev
+
+Your app will be live on `localhost`
+
+## Features
+
+- Add new todos
+- Mark todos as complete
+- Delete todos
+- Clean and simple UI
+
+## Future Enhancements
+
+- localStorage to save todos
+- Edit functionality
+- Filter todos (All/Active/Completed)
+- Dark mode
+
+## What I Learned
+
+- Component structure and hierarchy
+- State management with useState
+- Handling forms and events
+- Props passing between components
+
+Made with ❤️ while learning React
